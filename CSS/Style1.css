@@ -1,0 +1,42 @@
+.form-div{
+    background-color: #00adb5;
+    height: 400px;
+    width: 40%;
+    border-radius: 0.5cm;
+    border-style: ridge;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+h2{
+    margin-top: 7%;
+    margin-left: 40%;
+    color: #eeeeee;
+    font-size: xx-large;
+}
+.input_style{
+   margin-left: 20%;
+   margin-top: 7%;
+   border-radius: 0.1cm;
+   border-style: none;
+   height: 8%;
+   width: 60%;
+}
+.buttoncancel{
+    float: left;
+   margin-left: 50%;
+   margin-top: 10%;
+   padding: 1%;
+   background-color:#393e46;
+   border-radius: 0.1cm;
+   color: #eeeeee;
+}
+.buttonlogin{
+    float: left;
+    width: 10%;
+   margin-left: 10%;
+   margin-top: 10%;
+   padding: 1%;
+   background-color:#393e46;
+   border-radius: 0.1cm;
+   color: #eeeeee;
+}

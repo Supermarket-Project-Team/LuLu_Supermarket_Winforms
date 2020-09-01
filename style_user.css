@@ -1,0 +1,41 @@
+.btn_space{
+    margin-left: 68%;
+    margin-top: 0%;
+}
+.btn_style{
+    float: left;
+    margin-left: 5%;
+    padding: 2% 2% 2% 2%;
+    width: 20%;
+    background-color: #393e46;
+    color: #eeeeee;
+}
+.user_creation{
+    margin-top: 5%;
+    margin-left: 40%;
+}
+.user{
+    float: left;
+    margin-left: 35%;
+    margin-top: 0%;
+}
+.user label{
+    width: 100px;
+    height:35px;
+    display: inline-block;
+    text-align: right ;     
+}
+.user_details{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+table{
+    margin-left: 10%;
+    margin-top: 18%;
+    width: 80%;
+}
+table,th,td{
+    border: 1px solid black;
+    padding: 0.7%;
+}

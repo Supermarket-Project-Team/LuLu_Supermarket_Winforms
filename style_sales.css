@@ -1,0 +1,75 @@
+h2{
+    padding: 1% 40%;
+}
+.btn_space{
+    margin-left: 70%;
+}
+.btn_style{
+    float: left;
+    margin-left: 5%;
+    padding: 2% 2% 2% 2%;
+    width: 20%;
+    background-color: #393e46;
+    color: #eeeeee;
+}
+.bill{
+    float: left;
+    margin-left: 10%;
+}
+.bill label{
+    
+    width: 100px;
+    height:35px;
+    display: inline-block;
+    text-align: right ;     
+}
+.customer_heading{
+    margin-left: 7%;
+    margin-top: 10%;
+}
+.customer label{
+    width: 300px;
+    height:35px;
+    display: inline-block;
+    text-align: right ;
+}
+.product_heading{
+   position: absolute;
+   left: 35%;
+   top: 42%;
+}
+table{
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    width: 60%;
+}
+table,th,td{
+    border: 1px solid black;
+    padding: 0.5%;
+}
+.payment label{
+    width: 300px;
+    height: 25px;
+    display: inline-block;
+    text-align: right ;
+    margin-left: 55%;
+}
+.table-details{
+    float: left;
+    margin-left: 5%;
+}
+.label_details{
+    margin-left: 7%;
+    width: 15px;
+}   
+.input_details{
+    margin-left: 3%;
+}  
+.input_details2{
+    margin-left: 4%;
+}
+.input_salesman{
+    margin-left: 6%;
+}
+

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="style_sales.css">
+    <title>Sales</title>
+</head>
+<body>
+    <div class="topnav">
+        <div class="div1">
+            <h1>LULU</h1>
+        </div>
+        <div class="div2">
+            <a href="sales.html">Billing</a>
+            <a href="Salesman.html">Notification</a>
+            <a href="Home.html">Log out</a>
+        </div>
+    </div>
+
+
+    <div>
+        <h2 ><u>Sales Page</u></h2>
+    </div>
+
+
+    <div class="btn_space">
+        <button class="btn_style">Save</button>
+        <button class="btn_style">Edit</button>
+        <button class="btn_style">Delete</button>
+    </div>
+
+
+    <div class="bill">
+        <form>
+            <label for="billno">Bill NO :</label>
+            <input type="number" name="billno" placeholder="100" >    
+            <label for="billdate">Bill Date :</label>
+            <input type="date" name="billdate" >   
+        </form>
+    </div>
+
+
+    <div class="customer_heading">
+        <h3>Customer details :</h3>
+    </div>
+
+    <div class="div_details">
+        <label class="label_details" style="width: 10px;" for="">Customer Name:</label>
+        <input  class="input_details" type="text">
+        <br><br>
+        <label class="label_details"style="width: 10px;" for="">Customer Phone:</label>
+        <input class="input_details" type="text">
+        <br><br>
+        <label class="label_details" style="width: 10px;"for="">Customer Remark</label>
+        <input class="input_details" type="text">
+        <br><br>
+        <label class="label_details" style="width: 10px;"for="">Loyality point</label>
+        <input class="input_details2" type="text">
+        <br><br>
+        <label class="label_details" for="">Salesman</label>
+        <input class="input_salesman" type="text">
+        <br><br>
+
+    </div>
+
+
+    <div class= "product_heading">
+        <h3>Product Details :</h3>
+    </div>
+    
+    <div class="product">
+            <table>
+                <tr>
+                    <th>SI No.</th>
+                    <th>PRODUCT</th>
+                    <th>MRP</th>
+                    <th>QUANTITY</th>
+                    <th>DISCOUNT</th>
+                    <th>TAX</th>
+                    <th>SELLING AMOUNT</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Apple Juice</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td>2%</td>
+                    <td>10%</td>
+                    <td>98</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Mango Juice</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td>2%</td>
+                    <td>10%</td>
+                    <td>98</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Pineapple Juice</td>
+                    <td>100</td>
+                    <td>1</td>
+                    <td>2%</td>
+                    <td>10%</td>
+                    <td>98</td>
+                </tr>
+            </table>
+    </div>
+
+    <div class="payment">
+        <label for="total">Total Amount :</label>
+        <input type="number" name="total" placeholder="294"><br>
+        <label for="mode">Payment mode:</label>
+        <select name="mode">
+            <option value="Credit">Credit Card</option>
+            <option value="Debt">Debt Card</option>
+            <option value="wallet">Mobile Wallets</option>
+            <option value="upi">UPI</option>
+        </select>
+    </div>
+
+</body>
+</html>

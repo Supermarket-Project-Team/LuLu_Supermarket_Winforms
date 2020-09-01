@@ -1,0 +1,23 @@
+h2{
+    padding: 1% 40%;
+}
+.btn_space{
+    margin-left: 70%;
+}
+.btn_style{
+    float: left;
+    margin-left: 5%;
+    padding: 2% 2% 2% 2%;
+    width: 20%;
+    background-color: #393e46;
+    color: #eeeeee;
+}
+table{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+}
+table,th,td{
+    border: 1px solid black;
+    padding: 0.7%;
+}
